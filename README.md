@@ -36,7 +36,7 @@
 - 💻 Interested in **Software Development, Backend Engineering, and AI-powered applications**.
 - ⚙️ Building full-stack applications and scalable backend systems.
 - 🧠 Passionate about Data Structures, Algorithms, and problem-solving.
-- 🏆 Solved **400+ DSA problems** using Java and **80+ SQL problems**.
+- 🏆 Solved **1000+ DSA problems**.
 - 🌱 Currently improving my knowledge of System Design, Backend Architecture, and AI Engineering.
 - 🎯 Focused on building practical products and becoming a better software engineer.
 
