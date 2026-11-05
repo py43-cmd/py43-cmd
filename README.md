@@ -8,7 +8,6 @@
   4. Optionally add your LinkedIn / portfolio links in the Connect section
 -->
 
-
 <div align="center">
   <img src="./assets/hero.svg" width="100%" alt="Priyanshu — Full Stack Developer" />
 </div>
