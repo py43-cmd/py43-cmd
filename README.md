@@ -4,12 +4,17 @@
   To use:
   1. Create a repository named exactly py43-cmd/py43-cmd
   2. Copy this file into that repo as README.md
-  3. Copy the assets/ folder (hero.svg + footer.svg) next to it
+  3. Commit it — the banners and stats below are hosted externally,
+     so no extra asset upload is required.
   4. Optionally add your LinkedIn / portfolio links in the Connect section
 -->
 
 <div align="center">
-  <img src="./assets/hero.svg" width="100%" alt="Priyanshu — Full Stack Developer" />
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D12,45:C9F75A,100:A78BFA&height=220&section=header&text=Hi%2C%20I%27m%20Priyanshu&fontSize=48&fontColor=F4F2EC&desc=Full%20Stack%20Developer%20%7C%20React%20%2B%20Node.js%20%2B%20MongoDB&descSize=17&descAlignY=62&animation=twinkling&fontAlignY=38"
+    width="100%"
+    alt="Priyanshu — Full Stack Developer"
+  />
 </div>
 
 <div align="center">
@@ -93,103 +98,3 @@ A MERN + AI workspace where tasks, bugs, documents, and chat stay scoped to a si
 - **Frontend:** React 19, Vite, Tailwind CSS 4 — dark dashboard, Kanban board, protected routes
 - **Backend:** Node.js, Express 5, MongoDB, JWT + bcrypt, Helmet, Multer
 - **AI:** pluggable OpenAI-compatible provider layer, custom RAG pipeline (extract → chunk → embed → retrieve), per-feature JSON schemas and validators
-- **Highlights:** AI bug analysis, code review, API doc generation, task breakdowns, multi-turn assistant with citations
-
-### [Skill Up](https://github.com/py43-cmd/skill_up) — Learning management system
-
-A full-stack LMS where instructors build courses with video lectures and quizzes, students enroll and learn, and graduates earn verified certificates.
-
-<p>
-  <img src="https://img.shields.io/badge/React_19-0D0D12?style=flat-square&logo=react&logoColor=C9F75A" alt="React 19" />
-  <img src="https://img.shields.io/badge/Stripe-0D0D12?style=flat-square&logo=stripe&logoColor=A78BFA" alt="Stripe" />
-  <img src="https://img.shields.io/badge/Cloudinary-0D0D12?style=flat-square&logo=cloudinary&logoColor=38BDF8" alt="Cloudinary" />
-  <img src="https://img.shields.io/badge/JWT-0D0D12?style=flat-square&logo=jsonwebtokens&logoColor=F4F2EC" alt="JWT" />
-</p>
-
-- **Frontend:** React 19, Vite 7, Tailwind CSS 4, shadcn/ui, React Router 7, Recharts, Zod
-- **Backend:** Node.js, Express, MongoDB, JWT auth, bcrypt, rate limiting, `express-validator`
-- **Integrations:** Stripe Checkout + webhooks, Cloudinary media/CDN, Nodemailer OTP email
-- **Highlights:** curriculum builder, auto-graded quizzes and final exams, progress tracking, certificate downloads, instructor revenue dashboard, role-based access
-
-### [Convertify](https://github.com/py43-cmd/convertify) — Document processing suite
-
-A full-stack platform for converting Word ↔ PDF and merging PDFs, with session auth and secure per-request temporary storage.
-
-<p>
-  <img src="https://img.shields.io/badge/React-0D0D12?style=flat-square&logo=react&logoColor=C9F75A" alt="React" />
-  <img src="https://img.shields.io/badge/Express-0D0D12?style=flat-square&logo=express&logoColor=F4F2EC" alt="Express" />
-  <img src="https://img.shields.io/badge/ConvertAPI-0D0D12?style=flat-square&logoColor=A78BFA" alt="ConvertAPI" />
-  <img src="https://img.shields.io/badge/pdf--lib-0D0D12?style=flat-square&logoColor=FF5F57" alt="pdf-lib" />
-</p>
-
-- **Frontend:** Vite + React, Tailwind CSS, Radix UI — glassmorphism design with micro-animations
-- **Backend:** Node.js + Express, ConvertAPI, `pdf-lib`, `pdf-parse`, Multer
-- **Highlights:** OCR-aware PDF → Word conversion, structural upload validation, automatic temp-file garbage collection, client-safe error handling
-- **Security:** authenticated routes, extension/MIME/signature checks, encrypted-PDF rejection
-
----
-
-## 📈 GitHub stats
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=py43-cmd&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D0D12&title_color=C9F75A&text_color=F4F2EC&icon_color=A78BFA"
-    alt="GitHub stats"
-    width="48%"
-  />
-  <img
-    src="https://streak-stats.demolab.com/?user=py43-cmd&hide_border=true&background=0D0D12&stroke=2A2A33&ring=C9F75A&fire=A78BFA&currStreakLabel=C9F75A&sideLabels=F4F2EC&dates=9B99A7"
-    alt="GitHub streak"
-    width="48%"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=py43-cmd&layout=compact&langs_count=8&hide_border=true&bg_color=0D0D12&title_color=C9F75A&text_color=F4F2EC"
-    alt="Top languages"
-    width="48%"
-  />
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=py43-cmd&bg_color=0D0D12&color=C9F75A&line=A78BFA&point=F4F2EC&area=true&hide_border=true"
-    alt="Contribution activity graph"
-    width="48%"
-  />
-</p>
-
----
-
-## 🌱 Currently
-
-- Building **DevFlow AI** — my final-year MERN + AI project
-- Hardening **Convertify** and **Skill Up** for production use
-- Going deeper into backend architecture, testing, RAG, and secure file handling
-- Exploring UI/UX trends and web performance optimization
-
----
-
-## 🤝 Let's connect
-
-<p align="center">
-  <a href="mailto:py431035@gmail.com">
-    <img src="https://img.shields.io/badge/SAY_HELLO-py431035%40gmail.com-C9F75A?style=for-the-badge&labelColor=0D0D12" alt="Email Priyanshu" />
-  </a>
-  <a href="https://github.com/py43-cmd">
-    <img src="https://img.shields.io/badge/FOLLOW-@py43--cmd-A78BFA?style=for-the-badge&labelColor=0D0D12" alt="Follow on GitHub" />
-  </a>
-</p>
-
-<!-- Add these when you're ready:
-<p align="center">
-  <a href="https://www.linkedin.com/in/YOUR_HANDLE/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://your-portfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-C9F75A?style=for-the-badge&logo=googlechrome&logoColor=0D0D12" alt="Portfolio" />
-  </a>
-</p>
--->
-
-<div align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Let's build something people actually use" />
-</div>
