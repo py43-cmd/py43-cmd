@@ -38,7 +38,8 @@
 - 💻 Interested in **Software Development, Backend Engineering, and AI-powered applications**.
 - ⚙️ Enjoy building full-stack applications and scalable backend systems.
 - 🧠 Passionate about Data Structures, Algorithms, and problem-solving.
-- 🏆 Solved **400+ DSA problems** using Java and **80+ SQL problems**.
+- 🚀 Solved **1000+ coding problems** across programming platforms.
+- 💡 **C++** is my primary language for competitive programming.
 - 🌱 Currently exploring System Design, Backend Architecture, and AI Engineering.
 - 🎯 Focused on building practical products and becoming a better software engineer.
 
@@ -171,16 +172,16 @@
 
 ### Programming Languages
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<p>
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
 ### Frontend Development
 
-<p align="left">
+<p>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
@@ -190,7 +191,7 @@
 
 ### Backend Development
 
-<p align="left">
+<p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
@@ -199,7 +200,7 @@
 
 ### Databases & Infrastructure
 
-<p align="left">
+<p>
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
@@ -208,7 +209,7 @@
 
 ### AI & Machine Learning
 
-<p align="left">
+<p>
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/FAISS-00599C?style=for-the-badge" />
@@ -216,7 +217,7 @@
 
 ### Developer Tools
 
-<p align="left">
+<p>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
@@ -229,9 +230,12 @@
 
 <div align="center">
 
-### Consistency, Logic & Problem Solving 🧩
+### Think. Code. Optimize. Repeat. ⚡
 
-<p>Actively sharpening my algorithmic thinking across competitive programming platforms.</p>
+<p>
+Passionate about competitive programming, algorithmic problem-solving,
+and writing efficient solutions using C++.
+</p>
 
 <br/>
 
@@ -249,8 +253,8 @@
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/400%2B-DSA%20Problems%20Solved-2E8B57?style=for-the-badge" />
-<img src="https://img.shields.io/badge/80%2B-SQL%20Problems%20Solved-336791?style=for-the-badge" />
+<img src="https://img.shields.io/badge/1000%2B-Problems%20Solved-238636?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Primary%20Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
 
 </div>
 
@@ -267,16 +271,6 @@
 <br/><br/>
 
 <img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=py43-cmd&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-</div>
-
----
-
-## 🐍 Contribution Graph
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/py43-cmd/py43-cmd/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" width="100%" />
 
 </div>
 
