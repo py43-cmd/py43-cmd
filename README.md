@@ -1,147 +1,247 @@
- some part are not vissible fr on gitbu when i lasted redme file of profile here 
-https://api.github.com/repos/py43-cmd/py43-cmd/contents/assets
 
-StatusCode: non 2xx status code (404 GET https://api.github.com/repos/py43-cmd/py43-cmd/contents/assets)
-Found the issue. I checked your live profile repo and it contains only README.md — the assets/ folder was never uploaded, so these were broken:
-
-<img src="./assets/hero.svg" ... />
-<img src="./assets/footer.svg" ... />
-Two stats services were also failing:
-
-github-readme-stats.vercel.app → 503
-github-readme-activity-graph.vercel.app → 402
-Fixed in GITHUB_PROFILE_README.md
-Replaced the local hero with an animated capsule-render gradient banner.
-Replaced the local footer with an animated capsule-render gradient wave.
-Switched GitHub stats and top languages to a working mirror.
-Replaced the broken activity graph with working profile-summary-cards.
-Kept your custom SVGs in assets/ as an optional upgrade.
-All active image URLs now return HTTP 200.
-
-What you need to do
-In your py43-cmd/py43-cmd repo, replace README.md with the updated:
-
-GITHUB_PROFILE_README.md
-
-No extra asset upload is required now. If you later want the custom hero instead, upload assets/hero.svg and assets/footer.svg to that repo, then switch the two banner URLs back to ./assets/hero.svg and ./assets/footer.svg.
-
-- **Highlights:** AI bug analysis, code review, API doc generation, task breakdowns, multi-turn assistant with citations
-
-### [Skill Up](https://github.com/py43-cmd/skill_up) — Learning management system
-
-A full-stack LMS where instructors build courses with video lectures and quizzes, students enroll and learn, and graduates earn verified certificates.
-
-<p>
-  <img src="https://img.shields.io/badge/React_19-0D0D12?style=flat-square&logo=react&logoColor=C9F75A" alt="React 19" />
-  <img src="https://img.shields.io/badge/Stripe-0D0D12?style=flat-square&logo=stripe&logoColor=A78BFA" alt="Stripe" />
-  <img src="https://img.shields.io/badge/Cloudinary-0D0D12?style=flat-square&logo=cloudinary&logoColor=38BDF8" alt="Cloudinary" />
-  <img src="https://img.shields.io/badge/JWT-0D0D12?style=flat-square&logo=jsonwebtokens&logoColor=F4F2EC" alt="JWT" />
-</p>
-
-- **Frontend:** React 19, Vite 7, Tailwind CSS 4, shadcn/ui, React Router 7, Recharts, Zod
-- **Backend:** Node.js, Express, MongoDB, JWT auth, bcrypt, rate limiting, `express-validator`
-- **Integrations:** Stripe Checkout + webhooks, Cloudinary media/CDN, Nodemailer OTP email
-- **Highlights:** curriculum builder, auto-graded quizzes and final exams, progress tracking, certificate downloads, instructor revenue dashboard, role-based access
-
-### [Convertify](https://github.com/py43-cmd/convertify) — Document processing suite
-
-A full-stack platform for converting Word ↔ PDF and merging PDFs, with session auth and secure per-request temporary storage.
-
-<p>
-  <img src="https://img.shields.io/badge/React-0D0D12?style=flat-square&logo=react&logoColor=C9F75A" alt="React" />
-  <img src="https://img.shields.io/badge/Express-0D0D12?style=flat-square&logo=express&logoColor=F4F2EC" alt="Express" />
-  <img src="https://img.shields.io/badge/ConvertAPI-0D0D12?style=flat-square&logoColor=A78BFA" alt="ConvertAPI" />
-  <img src="https://img.shields.io/badge/pdf--lib-0D0D12?style=flat-square&logoColor=FF5F57" alt="pdf-lib" />
-</p>
-
-- **Frontend:** Vite + React, Tailwind CSS, Radix UI — glassmorphism design with micro-animations
-- **Backend:** Node.js + Express, ConvertAPI, `pdf-lib`, `pdf-parse`, Multer
-- **Highlights:** OCR-aware PDF → Word conversion, structural upload validation, automatic temp-file garbage collection, client-safe error handling
-- **Security:** authenticated routes, extension/MIME/signature checks, encrypted-PDF rejection
-
----
-
-## 📈 GitHub stats
-
-<p align="center">
-  <img
-    src="https://github-readme-stats-sigma-five.vercel.app/api?username=py43-cmd&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D0D12&title_color=C9F75A&text_color=F4F2EC&icon_color=A78BFA"
-    alt="GitHub stats"
-    width="48%"
-  />
-  <img
-    src="https://streak-stats.demolab.com/?user=py43-cmd&hide_border=true&background=0D0D12&stroke=2A2A33&ring=C9F75A&fire=A78BFA&currStreakLabel=C9F75A&sideLabels=F4F2EC&dates=9B99A7"
-    alt="GitHub streak"
-    width="48%"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=py43-cmd&layout=compact&langs_count=8&hide_border=true&bg_color=0D0D12&title_color=C9F75A&text_color=F4F2EC"
-    alt="Top languages"
-    width="48%"
-  />
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=py43-cmd&theme=github_dark"
-    alt="Most used languages by commit"
-    width="48%"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=py43-cmd&theme=github_dark"
-    alt="GitHub profile summary"
-    width="100%"
-  />
-</p>
-
----
-
-## 🌱 Currently
-
-- Building **DevFlow AI** — my final-year MERN + AI project
-- Hardening **Convertify** and **Skill Up** for production use
-- Going deeper into backend architecture, testing, RAG, and secure file handling
-- Exploring UI/UX trends and web performance optimization
-
----
-
-## 🤝 Let's connect
-
-<p align="center">
-  <a href="mailto:py431035@gmail.com">
-    <img src="https://img.shields.io/badge/SAY_HELLO-py431035%40gmail.com-C9F75A?style=for-the-badge&labelColor=0D0D12" alt="Email Priyanshu" />
-  </a>
-  <a href="https://github.com/py43-cmd">
-    <img src="https://img.shields.io/badge/FOLLOW-@py43--cmd-A78BFA?style=for-the-badge&labelColor=0D0D12" alt="Follow on GitHub" />
-  </a>
-</p>
-
-
-<!-- Add these when you're ready:
-<p align="center">
-  <a href="https://www.linkedin.com/in/YOUR_HANDLE/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://your-portfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-C9F75A?style=for-the-badge&logo=googlechrome&logoColor=0D0D12" alt="Portfolio" />
-  </a>
-</p>
--->
+<!-- ===================== HEADER ===================== -->
 
 <div align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:C9F75A,55:A78BFA,100:0D0D12&height=120&section=footer&animation=twinkling"
-    width="100%"
-    alt="Gradient footer"
-  />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=200&section=header&text=Priyanshu%20Yadav&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Software%20Engineer%20%7C%20Backend%20Developer&descAlignY=58&descSize=18" width="100%" />
+
+<h2>Hi, I'm Priyanshu Yadav 👋</h2>
+
+<h3>Software Engineer | Backend Developer | Competitive Programmer</h3>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=1000&color=764BA2&center=true&vCenter=true&width=650&lines=Building+Scalable+Backend+Systems;Full-Stack+Application+Developer;Exploring+AI+Engineering;Competitive+Programmer;Always+Learning+and+Building" alt="Typing SVG" />
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=py43-cmd&label=Profile%20Views&color=764ba2&style=flat" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/py43-cmd?label=Followers&style=flat&color=blueviolet" alt="GitHub followers" />
+</p>
+
+<a href="https://github.com/py43-cmd">
+  <img src="https://img.shields.io/badge/GitHub-py43--cmd-181717?style=for-the-badge&logo=github" />
+</a>
+<a href="https://www.linkedin.com/in/priyanshu-yadav-90bb89288/">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin" />
+</a>
+<a href="mailto:py431035@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
 </div>
 
-<!--
-  Optional: upload assets/hero.svg and assets/footer.svg to your profile repo,
-  then replace the two capsule-render URLs with ./assets/hero.svg and
-  ./assets/footer.svg if you want the custom animated banners instead.
--->
+---
 
+## 👨‍💻 About Me
+
+- 🎓 B.Tech Computer Science & Engineering (Data Science) student at **ABES Engineering College, Ghaziabad**.
+- 💻 Interested in **Software Development, Backend Engineering, and AI-powered applications**.
+- ⚙️ Building full-stack applications and scalable backend systems.
+- 🧠 Passionate about Data Structures, Algorithms, and problem-solving.
+- 🏆 Solved **400+ DSA problems** using Java and **80+ SQL problems**.
+- 🌱 Currently improving my knowledge of System Design, Backend Architecture, and AI Engineering.
+- 🎯 Focused on building practical products and becoming a better software engineer.
+
+---
+
+## 🚀 Featured Projects
+
+### 1. DevFlow AI
+
+**An AI-powered workspace for software development and project management.**
+
+- Project and task management.
+- Bug tracking and issue management.
+- AI-powered code review.
+- Automated API documentation.
+- RAG-based AI assistant for project-aware interactions.
+
+**Tech Stack:** React 19 · Node.js · Express 5 · MongoDB · JWT · AI APIs · RAG
+
+<p>
+  <a href="https://github.com/py43-cmd/devflow_ai">
+    <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+---
+
+### 2. Convertify
+
+**A document processing platform for converting and managing files.**
+
+- Word to PDF conversion.
+- PDF merging and document processing.
+- PDF to Word text extraction.
+- Google OAuth authentication.
+- Redis-backed session management.
+
+**Tech Stack:** React 19 · Node.js · Express · MongoDB · Redis · Puppeteer
+
+<p>
+  <a href="https://github.com/py43-cmd/convertify">
+    <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://convertify-eosin.vercel.app">
+    <img src="https://img.shields.io/badge/Live_Demo-00C7B7?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</p>
+
+---
+
+### 3. Skill Up
+
+**A full-stack Learning Management System (LMS).**
+
+- Student and instructor dashboards.
+- Course creation and management.
+- Video lectures and learning modules.
+- Quizzes and assessments.
+- Payment integration.
+- Certificate generation.
+
+**Tech Stack:** React 19 · Node.js · Express · MongoDB · Stripe · Cloudinary
+
+<p>
+  <a href="https://github.com/py43-cmd/skill_up">
+    <img src="https://img.shields.io/badge/Source_Code-181717?style=for-the-badge&logo=github" />
+  </a>
+</p>
+
+---
+
+## 💻 Tech Stack
+
+### Programming Languages
+
+<p>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+</p>
+
+### Frontend Development
+
+<p>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
+
+### Backend Development
+
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+</p>
+
+### Databases & Infrastructure
+
+<p>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
+
+### AI / Machine Learning
+
+<p>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/FAISS-00599C?style=for-the-badge" />
+</p>
+
+### Developer Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+</p>
+
+---
+
+## 🏆 Competitive Programming
+
+I actively practice problem-solving and Data Structures & Algorithms across multiple competitive programming platforms.
+
+<div align="center">
+
+<a href="https://leetcode.com/u/Py431035/">
+  <img src="https://img.shields.io/badge/LeetCode-Rating%201731-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+</a>
+
+<a href="https://atcoder.jp/users/Priyanshu_yadav">
+  <img src="https://img.shields.io/badge/AtCoder-Rating%20871-222222?style=for-the-badge&logo=atcoder&logoColor=white" />
+</a>
+
+<a href="https://www.codechef.com/users/py431035">
+  <img src="https://img.shields.io/badge/CodeChef-Profile-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+</a>
+
+</div>
+
+---
+
+## 📊 GitHub Statistics
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=py43-cmd&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=py43-cmd&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
+
+<br/>
+
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com/?user=py43-cmd&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
+</div>
+
+---
+
+## 🐍 Contribution Graph
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/py43-cmd/py43-cmd/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake Animation" width="100%" />
+
+</div>
+
+---
+
+## 🤝 Connect With Me
+
+<div align="center">
+
+<a href="https://github.com/py43-cmd">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<a href="https://www.linkedin.com/in/priyanshu-yadav-90bb89288/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="mailto:py431035@gmail.com">
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<a href="https://leetcode.com/u/Py431035/">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### 💡 "Consistency beats intensity. Keep building, keep learning."
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,50:764ba2,100:f093fb&height=120&section=footer" width="100%" />
+
+</div>
